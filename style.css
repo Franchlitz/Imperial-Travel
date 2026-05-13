@@ -1,0 +1,44 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+body{
+    background-color:#050505;
+    margin: 0; 
+}
+/* SIDEBAR */
+.sidebar{
+    background-color: #0B0B0B;
+    width: 25%;
+    border: 1px solid;
+    border-color:rgba(255,255,255,0.08);
+    border-radius: 1rem;
+}
+.sidebarLinea{
+    border-bottom: 1px solid;
+}
+.sidebar__imgLogo{
+    height: 10vh;
+}
+.sidebar__imgLogoFinal{
+    height: 8vh;
+}
+.sidebarGarantia{
+    background-color:#050505;
+    border-radius: 1rem;
+    border: 1px solid;
+    border-color: #232323;
+}
+.sidebarLogin{
+   background-color:#050505;
+    border-radius: 1rem;
+    border: 1px solid;
+    border-color: #232323; 
+}
+/* HEADER */
+.cardHeader{
+    margin-left: 25%;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-image: url(./Imagenes/1.png);
+}

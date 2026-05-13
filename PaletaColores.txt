@@ -1,0 +1,23 @@
+COLORES PRINCIPALES
+#050505  /* Fondo principal */
+#0B0B0B  /* Sidebar / cards */
+#111111  /* Contenedores */
+#1A1A1A  /* Hover oscuro */
+#232323  /* Bordes suaves */
+
+ROJOS
+#C1121F  /* Rojo principal */
+#E10600  /* CTA y botones */
+#FF2D2D  /* Hover brillante */
+#8B0000  /* Rojo profundo */
+
+BLANCO Y GRISES
+#F5F5F5  /* Texto principal */
+#D6D6D6  /* Texto secundario */
+#A8A8A8  /* Descripciones */
+#6C757D  /* Gris industrial */
+
+EFECTOS Y OVERLAYS
+rgba(255, 0, 0, 0.15)
+rgba(255,255,255,0.08)
+rgba(0,0,0,0.75)
