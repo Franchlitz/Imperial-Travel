@@ -6,8 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>IMPERIAL TRAVEL</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
@@ -56,16 +58,84 @@
     </nav>
 
     <section class="cardHeader d-flex flex-column">
-      <h2 class="fs-1 text-white">LA GALAXIA TE PERTENECE</h2>
-      <h1 class="fs-1 text-danger">VIAJA CON PODER</h1>
-      <p class="fs-5 text-">Lorem, ipsum dolor sit amet consectetur adipisicing elit. In, enim.</p>
-      <button>EXPLORA DESTINOS</button>
-      <button>NUESTROS SERVICIOS</button>
+      <div class="card__headerSombra">
+        <div class="card__headerContenido d-flex flex-column">
+          <h2 class="fs-1 text-white">LA GALAXIA</h2>
+          <h2 class="fs-1 text-white">TE PERTENECE.</h2>
+          <h1 class="fs-1 text-danger">VIAJA CON PODER.</h1>
+          <p class="fs-5 text-white">Lorem, ipsum dolor sit</p>
+          <p class="fs-5 text-white">Lorem ipsum dolor sit amet.</p>
+          <p class="fs-5 text-white">Lorem ipsum dolor sit amet consectetur.</p>
+
+          <div class="card__headerBotones d-flex flex-wrap gap-4">
+            <button class="card__botonDestinos">EXPLORA DESTINOS →</button>
+            <button class="card__botonServicios">NUESTROS SERVICIOS</button>
+          </div>
+
+        </div>
+      </div>
     </section>
   </header>
 
   <main>
+    <section class="cardDestinos d-flex flex-column p-5">
+      <h2 class="fs-4 text-white">DESTINOS</h2>
+      <div class="card__mainContenido d-flex justify-content-flex-start flex-wrap gap-4">
+        <article class="card__mainDestinos">
+          <img src="./Imagenes/korriban.jpg" alt="korriban">
+          <h3 class="fs-5 p-2 text-white">KORRIBAN</h3>
+          <p class="fs-6 p-2">Antigua capital Sith.</p>
+        </article>
 
+        <article class="card__mainDestinos">
+          <img src="./Imagenes/mustafar.jpg" alt="mustafar">
+          <h3 class="fs-5 p-2 text-white">MUSTAFAR</h3>
+          <p class="fs-6 p-2">Castillo de un Lord Sith.</p>
+        </article>
+
+        <article class="card__mainDestinos">
+          <img src="./Imagenes/naboo.jpg" alt="naboo">
+          <h3 class="fs-5 p-2 text-white">NABOO</h3>
+          <p class="fs-6 p-2">Planeta natal del Emperador.</p>
+        </article>
+
+        <article class="card__mainDestinos">
+          <img src="./Imagenes/bespin.jpg" alt="bespin">
+          <h3 class="fs-5 p-2 text-white">BESPIN</h3>
+          <p class="fs-6 p-2">Ciudad flotantes.</p>
+        </article>
+
+        <article class="card__mainDestinos">
+          <img src="./Imagenes/Scarif.png" alt="scarif">
+          <h3 class="fs-5 p-2 text-white">SCARIF</h3>
+          <p class="fs-6 p-2">Base importante Imperial.</p>
+        </article>
+
+        <article class="card__mainDestinos">
+          <img src="./Imagenes/endor.jpg" alt="endor">
+          <h3 class="fs-5 p-2 text-white">ENDOR</h3>
+          <p class="fs-6 p-2">Borde exterior.</p>
+        </article>
+      </div>
+
+    </section>
+
+    <section class="cardExperiencias d-flex">
+      <article class="card__contenedorExperiencias d-flex justify-content-flex-start">
+        <img class="card__imgExp" src="./Imagenes/logoimperiorojo.png" alt="stormtroopers">
+        <div class="card__experiencias">
+          <h3>Experiencias Imperiales</h3>
+          <h2>VIVE LA GALAXIA COMO EL IMPERIO LA CONQUISTA.</h2>
+          <p>Acceso exclusivo a instalaciones imperiales, eventos privados, entrenamiento y misiones que extienden tu
+            lugar en el orden galactico.</p>
+          <button>DESCUBRIR EXPERIENCIAS →</button>
+        </div>
+      </article>
+
+      <article>
+
+      </article>
+    </section>
   </main>
 
   <section>

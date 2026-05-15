@@ -5,22 +5,26 @@ body{
     background-color:#050505;
     margin: 0; 
 }
+main{
+    margin-left: 15%;
+}
 /* SIDEBAR */
 .sidebar{
     background-color: #0B0B0B;
-    width: 25%;
+    width: 15%;
     border: 1px solid;
     border-color:rgba(255,255,255,0.08);
     border-radius: 1rem;
+    overflow: auto;
 }
 .sidebarLinea{
     border-bottom: 1px solid;
 }
 .sidebar__imgLogo{
-    height: 10vh;
+    height: 6vh;
 }
 .sidebar__imgLogoFinal{
-    height: 8vh;
+    height: 6vh;
 }
 .sidebarGarantia{
     background-color:#050505;
@@ -36,9 +40,47 @@ body{
 }
 /* HEADER */
 .cardHeader{
-    margin-left: 25%;
+    margin-left: 15%;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 55vh;
     background-image: url(./Imagenes/1.png);
+}
+.card__headerSombra{
+    background-color: rgba(0, 0, 0, 0.589);
+    height: 100%;
+}
+.card__headerContenido{
+    padding: 6rem;
+}
+.card__botonDestinos{
+    border: 1px solid red;
+    background-color: #E10600;
+    padding: 1rem 3rem;
+}
+.card__botonServicios{
+    border: 1px solid white;
+    background-color: #05050500;
+    padding: 1rem 3rem;
+}
+/* MAIN DESTINOS */
+.cardDestinos{
+    border-top: 1px solid rgba(255,255,255,0.08);
+}
+.card__mainDestinos{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 1rem;
+    width: 15%;
+    overflow: hidden;
+}
+.card__mainDestinos img{
+    height: 13vh;
+    max-width: 100%;
+    object-fit: cover;
+}
+/* MAIN EXPERIENCIAS */
+.card__imgExp{
+    height: 10vh;
 }
