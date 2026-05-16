@@ -43,7 +43,7 @@ main{
     margin-left: 15%;
     background-size: cover;
     background-position: center;
-    height: 55vh;
+    height: 55%;
     background-image: url(./Imagenes/1.png);
 }
 .card__headerSombra{
@@ -81,6 +81,47 @@ main{
     object-fit: cover;
 }
 /* MAIN EXPERIENCIAS */
+.card__contenedorExperiencias{
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 1rem;
+    width:50%;
+    height: 100%;
+}
+.card__experiencias{
+    margin-left:5%;
+    margin-right:5%;
+    width: 50%;
+}
 .card__imgExp{
-    height: 10vh;
+    height: 300px;
+    width: 50%;
+}
+.cardPlanificacion{
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 1rem;
+    width: 50%;
+}
+.card__planificacionAbajo{
+    border-top: 1px solid rgba(255,255,255,0.08);
+    padding-top: 1rem;
+}
+.card__planificacionAbajo img{
+    height: 2vh;
+}
+.card__planificacionImg{
+    height: 235px;
+    width: 50%;
+}
+/* SECTION PREGUNTA */
+.cardPregunta{
+    margin-left: 15%;
+}
+/* SECTION INFORMACION */
+.cardInformacion{
+    margin-left: 15%;
+}
+/* FOOTER */
+.footer{
+    margin-left: 15%;
+    border-top: 1px solid rgba(255,255,255,0.08);
 }
