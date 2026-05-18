@@ -29,7 +29,7 @@
           </div>
         </div>
 
-        <div class="sibebarLinks d-flex flex-column gap-2">
+        <div class="sidebarLinks d-flex flex-column gap-2">
           <a class="nav-link active fs-5 text-white" aria-current="page" href="#">Inicio</a>
           <a class="nav-link fs-5 text-white" href="#">Destinos</a>
           <a class="nav-link fs-5 text-white" href="#">Experiencias</a>
@@ -63,9 +63,9 @@
           <h2 class="fs-1 text-white">LA GALAXIA</h2>
           <h2 class="fs-1 text-white">TE PERTENECE.</h2>
           <h1 class="fs-1">VIAJA CON PODER.</h1>
-          <p class="fs-5 text-white">Lorem, ipsum dolor sit</p>
-          <p class="fs-5 text-white">Lorem ipsum dolor sit amet.</p>
-          <p class="fs-5 text-white">Lorem ipsum dolor sit amet consectetur.</p>
+          <p class="fs-5 text-white">Destinos estrategicos.</p>
+          <p class="fs-5 text-white">Experiencias inolvidables.</p>
+          <p class="fs-5 text-white">Todo bajo control del Imperio.</p>
 
           <div class="card__headerBotones d-flex flex-wrap gap-4">
             <button class="card__botonDestinos">EXPLORA DESTINOS →</button>
@@ -79,7 +79,12 @@
 
   <main>
     <section class="cardDestinos d-flex flex-column p-5">
-      <h2 class="fs-4 text-white">DESTINOS</h2>
+      <div class="d-flex justify-content-between ">
+      <h2 class="card__destinosTitulo d-flex align-items-center gap-5 fs-4 text-white">DESTINOS</h2>
+      <nav>
+        <a href="#">VER TODOS LOS DESTINOS</a>
+      </nav>
+      </div>
       <div class="card__mainContenido d-flex justify-content-start align-items-start flex-wrap gap-4">
         <article class="card__mainDestinos">
           <img src="./Imagenes/korriban.jpg" alt="korriban">
@@ -184,9 +189,9 @@
       </article>
     </section>
   </main>
-
-  <section class="cardPregunta ps-5 pe-5 pb-1 pt-4 d-flex flex-column align-items-center">
-    <h3 class="fs-4 text-white">¿POR QUE VIAJAR CON IMPERIAL TRAVEL?</h3>
+  
+  <section class="cardPregunta ps-5 pe-5 pb-1 pt-4 d-flex flex-column align-items-center flex-wrap">
+    <h3 class="card__preguntaTitulo fs-4 text-white d-flex align-items-center gap-5">¿POR QUE VIAJAR CON IMPERIAL TRAVEL?</h3>
     <div class="card__Pregunta d-flex justify-content-center pt-4">
       <article class="card__contenidoPregunta d-flex align-items-center gap-3 pe-2 ps-2">
         <img class="card__preguntaImg" src="./Imagenes/logoimperiorojo.png" alt="logo">

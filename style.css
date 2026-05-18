@@ -15,7 +15,11 @@ main{
     border: 1px solid;
     border-color:rgba(255,255,255,0.08);
     border-radius: 1rem;
-    overflow: auto;
+    overflow-y:scroll;
+    overflow-x: hidden;
+}
+.sidebarLinks a:hover{
+    background-color: #FF2D2D;
 }
 .sidebarLinea{
     border-bottom: 1px solid;
@@ -97,6 +101,17 @@ main{
     border-radius: 1rem;
     color: #ffffff;
 }
+.cardDestinos a{
+    text-decoration: none;
+    color:#C1121F;
+}
+.card__destinosTitulo::after{
+    content: "";
+    width: 120px;
+    height: 2px;
+    background-color: #C1121F;
+    display: block;
+}
 /* MAIN EXPERIENCIAS */
 .card__contenedorExperiencias{
     border: 1px solid rgba(255,255,255,0.08);
@@ -161,6 +176,27 @@ main{
 }
 .card__contenidoPregunta{
     border-right: 1px solid rgba(255,255,255,0.08);
+}
+.card__preguntaTitulo::after{
+    content: "";
+    width: 450px;
+    height: 2px;
+    background-color: #C1121F;
+    display: block;
+     clip-path: polygon(0 0, 100% 40%, 100% 60%, 0 100%);
+}
+.card__preguntaTitulo::before{
+    content: "";
+    width: 450px;
+    height: 2px;
+    background-color: #C1121F;
+    display: block;
+    clip-path: polygon(
+        0 40%,
+        100% 0,
+        100% 100%,
+        0% 60%
+    );
 }
 /* SECTION INFORMACION */
 .cardInformacion{
