@@ -51,7 +51,7 @@
       <div class="sidebarLogin d-flex align-items-center gap-2">
         <img class="sidebar__imgLogoFinal" src="./Imagenes/logoimperiorojo.png" alt="logoImperiofinal">
         <div class="sideLoginText d-flex flex-column">
-          <h2 class="fs-5 text-danger">UNETE AL IMPERIO</h2>
+          <h2 class="fs-5">UNETE AL IMPERIO</h2>
           <p class="fs-6 text-white">Tu lealtad, nuestra mision.</p>
         </div>
       </div>
@@ -62,7 +62,7 @@
         <div class="card__headerContenido d-flex flex-column">
           <h2 class="fs-1 text-white">LA GALAXIA</h2>
           <h2 class="fs-1 text-white">TE PERTENECE.</h2>
-          <h1 class="fs-1 text-danger">VIAJA CON PODER.</h1>
+          <h1 class="fs-1">VIAJA CON PODER.</h1>
           <p class="fs-5 text-white">Lorem, ipsum dolor sit</p>
           <p class="fs-5 text-white">Lorem ipsum dolor sit amet.</p>
           <p class="fs-5 text-white">Lorem ipsum dolor sit amet consectetur.</p>
@@ -80,41 +80,59 @@
   <main>
     <section class="cardDestinos d-flex flex-column p-5">
       <h2 class="fs-4 text-white">DESTINOS</h2>
-      <div class="card__mainContenido d-flex justify-content-flex-start flex-wrap gap-4">
+      <div class="card__mainContenido d-flex justify-content-start align-items-start flex-wrap gap-4">
         <article class="card__mainDestinos">
           <img src="./Imagenes/korriban.jpg" alt="korriban">
           <h3 class="fs-5 p-2 text-white">KORRIBAN</h3>
           <p class="fs-6 p-2">Antigua capital Sith.</p>
+          <div class="card__botonMainDestinos d-flex justify-content-center align-items-center pe-5 ps-5 pb-1">
+            <button>ᖬ800</button>
+          </div>
         </article>
 
         <article class="card__mainDestinos">
           <img src="./Imagenes/mustafar.jpg" alt="mustafar">
           <h3 class="fs-5 p-2 text-white">MUSTAFAR</h3>
           <p class="fs-6 p-2">Castillo de un Lord Sith.</p>
+          <div class="card__botonMainDestinos d-flex justify-content-center align-items-end pe-5 ps-5 pb-1">
+            <button>ᖬ1000</button>
+          </div>
         </article>
 
         <article class="card__mainDestinos">
           <img src="./Imagenes/naboo.jpg" alt="naboo">
           <h3 class="fs-5 p-2 text-white">NABOO</h3>
-          <p class="fs-6 p-2">Planeta natal del Emperador.</p>
+          <p class="fs-6 p-2">Hogar del Emperador.</p>
+          <div class="card__botonMainDestinos d-flex justify-content-center align-items-center pe-5 ps-5 pb-1">
+            <button>ᖬ500</button>
+          </div>
         </article>
 
         <article class="card__mainDestinos">
           <img src="./Imagenes/bespin.jpg" alt="bespin">
           <h3 class="fs-5 p-2 text-white">BESPIN</h3>
           <p class="fs-6 p-2">Ciudades flotantes.</p>
+          <div class="card__botonMainDestinos d-flex justify-content-center align-items-center pe-5 ps-5 pb-1">
+            <button>ᖬ300</button>
+          </div>
         </article>
 
         <article class="card__mainDestinos">
           <img src="./Imagenes/Scarif.png" alt="scarif">
           <h3 class="fs-5 p-2 text-white">SCARIF</h3>
           <p class="fs-6 p-2">Base Imperial importante.</p>
+          <div class="card__botonMainDestinos d-flex justify-content-center align-items-center pe-5 ps-5 pb-1">
+            <button>ᖬ600</button>
+          </div>
         </article>
 
         <article class="card__mainDestinos">
           <img src="./Imagenes/endor.jpg" alt="endor">
           <h3 class="fs-5 p-2 text-white">ENDOR</h3>
           <p class="fs-6 p-2">Borde exterior.</p>
+          <div class="card__botonMainDestinos d-flex justify-content-center align-items-center pe-5 ps-5 pb-1">
+            <button>ᖬ100</button>
+          </div>
         </article>
       </div>
 
@@ -125,7 +143,7 @@
         <img class="card__imgExp" src="./Imagenes/stormtrooper.png" alt="stormtroopers">
         <div class="card__experiencias d-flex flex-column justify-content-center">
           <h3 class="fs-5">Experiencias Imperiales</h3>
-          <h2 class="fs-4">VIVE LA GALAXIA COMO EL IMPERIO LA CONQUISTA.</h2>
+          <h2 class="fs-4 text-white">VIVE LA GALAXIA COMO EL IMPERIO LA CONQUISTA.</h2>
           <p>Acceso exclusivo a instalaciones imperiales, eventos privados, entrenamiento y misiones que extienden tu
             lugar en el orden galactico.</p>
           <button>DESCUBRIR EXPERIENCIAS →</button>
@@ -133,10 +151,10 @@
 
       </article>
 
-      <article class="cardPlanificacion d-flex flex-column p-2">
-        <div class="card__contenidoPlanificacion d-flex justify-content-end">
+      <article class="cardPlanificacion d-flex flex-column pe-2 ps-4">
+        <div class="card__contenidoPlanificacion d-flex justify-content-end align-items-center p-2">
           <div class="card__planificacion d-flex flex-column justify-content-center">
-            <p class="fs-5">PLANIFICA TU VIAJE</p>
+            <h3 class="fs-4  ">PLANIFICA TU VIAJE</h3>
             <p>Nuestro sistemas de reservas Imperial garantiza eficiencia y cumplimiento.</p>
             <button>INICIAR PLANIFICACION</button>
           </div>
@@ -145,85 +163,112 @@
         <div class="card__planificacionAbajo d-flex justify-content-center">
           <div class="pasoPlanificacion d-flex align-items-center gap-2">
             <img src="./Imagenes/logoimperiorojo.png" alt="logo3">
-            <h3 class="fs-6">SELECCIONA TU DESTINO</h3>
+            <h4 class="fs-6 text-white">SELECCIONA TU DESTINO</h4>
           </div>
 
           <div class="pasoPlanificacion d-flex align-items-center gap-2">
             <img src="./Imagenes/logoimperiorojo.png" alt="logo4">
-            <h3 class="fs-6">ELIGI TU NAVE</h3>
+            <h4 class="fs-6 text-white">ELIGI TU NAVE</h4>
           </div>
 
           <div class="pasoPlanificacion d-flex align-items-center gap-2">
             <img src="./Imagenes/logoimperiorojo.png" alt="logo5">
-            <h3 class="fs-6">ELIGI LAS EXPERIENCIAS</h3>
+            <h4 class="fs-6 text-white">ELIGI LAS EXPERIENCIAS</h4>
           </div>
 
           <div class="pasoPlanificacion d-flex align-items-center gap-2">
             <img src="./Imagenes/logoimperiorojo.png" alt="logo6">
-            <h3 class="fs-6">PREPARATE PARA PARTIR</h3>
+            <h4 class="fs-6 text-white">PREPARATE PARA PARTIR</h4>
           </div>
         </div>
       </article>
     </section>
   </main>
 
-  <section class="cardPregunta d-flex">
-    <h4>¿POR QUE VIAJAR CON IMPERIAL TRAVEL?</h4>
-    <article>
-      <img src="#" alt="">
-      <h4>PODER Y CONTROL</h4>
-      <p>El Imperio garantiza seguridad, orden y acceso a los que otros no pueden.</p>
-    </article>
+  <section class="cardPregunta ps-5 pe-5 pb-1 pt-4 d-flex flex-column align-items-center">
+    <h3 class="fs-4 text-white">¿POR QUE VIAJAR CON IMPERIAL TRAVEL?</h3>
+    <div class="card__Pregunta d-flex justify-content-center pt-4">
+      <article class="card__contenidoPregunta d-flex align-items-center gap-3 pe-2 ps-2">
+        <img class="card__preguntaImg" src="./Imagenes/logoimperiorojo.png" alt="logo">
+        <div class="card__articulePregunta d-flex flex-column">
+          <h4 class="fs-5">PODER Y CONTROL</h4>
+          <p class="fs-6">El Imperio garantiza seguridad, orden y acceso a los que otros no pueden.</p>
+        </div>
+      </article>
 
-    <article>
-      <img src="#" alt="">
-      <h4>EFICIENCIA TOTAL</h4>
-      <p>Procesos rapidos, precisos y sin margen de error.</p>
-    </article>
+      <article class="card__contenidoPregunta d-flex align-items-center gap-3 pe-2 ps-2">
+        <img class="card__preguntaImg2" src="./Imagenes/casco.png" alt="logo">
+        <div class="card__articulePregunta d-flex flex-column">
+          <h4 class="fs-5">EFICIENCIA TOTAL</h4>
+          <p class="fs-6">Procesos rapidos, precisos y sin margen de error.</p>
+        </div>
+      </article>
 
-    <article>
-      <img src="#" alt="">
-      <h4>FLOTA AVANZADA</h4>
-      <p>Naves de ultima generacion con tecnologia Imperial superior.</p>
-    </article>
+      <article class="card__contenidoPregunta d-flex align-items-center gap-2 pe-2 ps-2">
+        <img class="card__preguntaImg2" src="./Imagenes/cazatierojo.png" alt="logo">
+        <div class="card__articulePregunta d-flex flex-column">
+          <h4 class="fs-5">FLOTA AVANZADA</h4>
+          <p class="fs-6">Naves de ultima generacion con tecnologia Imperial superior.</p>
+        </div>
+      </article>
 
-    <article>
-      <img src="#" alt="">
-      <h4>ALCANCE GALACTICO</h4>
-      <p>Viaja a los destinos mas remotos con el respaldo del Imperio.</p>
-    </article>
+      <article class="card__contenidoPregunta d-flex align-items-center gap-3 pe-2 ps-2">
+        <img class="card__preguntaImg2" src="./Imagenes/Estrella.png" alt="logo">
+        <div class="card__articulePregunta d-flex flex-column">
+          <h4 class="fs-5">ALCANCE GALACTICO</h4>
+          <p class="fs-6">Viaja a los destinos mas remotos con el respaldo del Imperio.</p>
+        </div>
+      </article>
+    </div>
   </section>
 
-  <section class="cardInformacion d-flex">
-    <img src="#" alt="">
-    <h2>IMPERIAL TRAVEL</h2>
-    <p>VIAJES BAJO EL PODER DEL IMPERIO</p>
+  <section class="cardInformacion d-flex justify-content-between p-2 pt-4">
+    <div class="card__logoFinal d-flex p-3 align-items-center gap-3">
+      <img src="./Imagenes/logoimperiorojo.png" alt="logo">
+      <div class="card__logoInformacion d-flex flex-column">
+        <h2 class="text-white">IMPERIAL TRAVEL</h2>
+        <p>VIAJES BAJO EL PODER DEL IMPERIO</p>
+      </div>
+    </div>
+    <div class="card__separacionInformacion d-flex justify-content-center gap-5">
+      <div class="card__contenidoInformacion d-flex flex-column">
+        <h5 class="fs-6">NAVEGACION</h5>
+        <nav class="card__navInformacion d-flex flex-column">
+          <a href="#">Destinos</a>
+          <a href="#">Experiencias</a>
+          <a href="#">Planifica tu viaje</a>
+          <a href="#">Servicios</a>
+          <a href="#">Sobre el Imperio</a>
+        </nav>
+      </div>
+      <div class="card__contenidoInformacion d-flex flex-column">
+        <h5 class="fs-6">SERVICIOS</h5>
+        <nav class="card__navInformacion d-flex flex-column">
+          <a href="#">Estado de tu reserva</a>
+          <a href="#">Informacion de vuelos</a>
+          <a href="#">Equipaje y carga</a>
+          <a href="#">Seguridad Imperial</a>
+          <a href="#">Centro de ayuda</a>
+        </nav>
+      </div>
+      <div class="card__contenidoInformacion d-flex flex-column">
+        <h5 class="fs-6">LEGAL</h5>
+        <nav class="card__navInformacion d-flex flex-column">
+          <a href="#">Terminos y condiciones</a>
+          <a href="#">Politica de privacidad</a>
+          <a href="#">Codigo Imperial</a>
+          <a href="#">Autorizaciones</a>
+        </nav>
+      </div>
+    </div>
 
-    <h5>NAVEGACION</h5>
-    <nav>
-      <a href="#">Destinos</a>
-      <a href="#">Experiencias</a>
-      <a href="#">Planifica tu viaje</a>
-      <a href="#">Servicios</a>
-      <a href="#">Sobre el Imperio</a>
-    </nav>
-
-    <h5>SERVICIOS</h5>
-    <nav>
-      <a href="#">Estado de tu reserva</a>
-      <a href="#">Informacion de vuelos</a>
-      <a href="#">Equipaje y carga</a>
-      <a href="#">Seguridad Imperial</a>
-      <a href="#">Centro de ayuda</a>
-    </nav>
-
-    <h5>LEGAL</h5>
-    <nav>
-      <a href="#">Terminos y condiciones</a>
-      <a href="#">Politica de privacidad</a>
-      <a href="#">Codigo Imperial</a>
-      <a href="#">Autorizaciones</a>
-    </nav>
+    <div class="cardContacto d-flex flex-column">
+      <h5 class="fs-6">SEGUINOS</h5>
+      <nav class="card__navContacto d-flex justify-content-center gap-4">
+        <a href="#"> <img src="./Imagenes/instagramrojo.png" alt="logoInstagram"> </a>
+        <a href="#"> <img src="./Imagenes/logoimperiorojo.png" alt="logoImperio"></a>
+      </nav>
+    </div>
   </section>
 
   <footer class="footer d-flex justify-content-center align-items-center">
