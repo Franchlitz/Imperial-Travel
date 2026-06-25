@@ -1,0 +1,45 @@
+@use "../utilidades/variables";
+@use "../utilidades/mixins";
+.cardDestinos {
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.card__mainDestinos {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 1rem;
+    width: 15%;
+    overflow: hidden;
+}
+
+.card__mainDestinos img {
+    height: 13vh;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.cardDestinos p {
+    color: variables.$colorGris;
+}
+
+.cardDestinos button {
+    width: 100%;
+    background-color: #E10600;
+    border: 1px#8B0000;
+    border-radius: 1rem;
+    color: #ffffff;
+}
+
+.cardDestinos a {
+    text-decoration: none;
+    color: variables.$colorRojo;
+}
+
+.card__destinosTitulo::after {
+    content: "";
+    width: 120px;
+    height: 2px;
+    background-color: variables.$colorRojo;
+    display: block;
+}

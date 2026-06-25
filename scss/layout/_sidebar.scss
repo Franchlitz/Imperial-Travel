@@ -1,0 +1,67 @@
+@use "../utilidades/variables";
+@use "../utilidades/mixins";
+.sidebar {
+    background-color: #0B0B0B;
+    width: 15%;
+    border: 1px solid;
+    border-color: rgba(255, 255, 255, 0.08);
+    border-radius: 1rem;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.sidebar::-webkit-scrollbar {
+  width: 10px;
+}
+.sidebar::-webkit-scrollbar-track {
+  background: #050505;
+  border-radius: 20px;
+}
+.sidebar::-webkit-scrollbar-thumb {
+  background: linear-gradient(
+    180deg,
+    #E10600 0%,
+    #C1121F 50%,
+    #8B0000 100%
+  );
+  border-radius: 20px;
+  border: 2px solid #050505;
+}
+.sidebar::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(
+    180deg,
+    #ff3b3b 0%,
+    #E10600 50%,
+    #C1121F 100%
+  );
+}
+
+.sidebarLinks a:hover {
+    background-color: #FF2D2D;
+}
+
+.sidebarLinea {
+    border-bottom: 1px solid;
+}
+
+.sidebar__imgLogo {
+    height: 6vh;
+}
+
+.sidebar__imgLogoFinal {
+    height: 6vh;
+}
+
+.sidebarGarantia {
+    background-color: #050505;
+    border-radius: 1rem;
+    border: 1px solid;
+    border-color: #232323;
+}
+
+.sidebarLogin {
+    background-color: #050505;
+    border-radius: 1rem;
+    border: 1px solid;
+    border-color: #232323;
+}

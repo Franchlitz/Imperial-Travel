@@ -1,0 +1,98 @@
+@media (max-width: 1024px) {
+ 
+  .sidebarToggle {
+    display: flex;
+  }
+ 
+  .sidebarOverlay {
+    display: block;
+    pointer-events: none;
+  }
+ 
+  .sidebarOverlay.is-visible {
+    pointer-events: auto;
+  }
+ 
+  .sidebar {
+    width: min(320px, 80vw);
+    border-radius: 0;
+    transform: translateX(-100%);
+    top: 0;
+    left: 0;
+  }
+ 
+  .sidebar.is-open {
+    transform: translateX(0);
+  }
+ 
+  main,
+  .cardHeader,
+  .cardPregunta,
+  .cardInformacion,
+  .footer {
+    margin-left: 0;
+  }
+ 
+  .card__headerContenido {
+    padding: 5rem 2.5rem 3rem;
+  }
+ 
+  .card__mainDestinos {
+    width: 30%;
+  }
+ 
+  .cardExperiencias {
+    flex-direction: column;
+  }
+ 
+  .card__contenedorExperiencias,
+  .cardPlanificacion {
+    width: 100%;
+  }
+
+  .card__planificacionAbajo {
+    gap: 1rem;
+  }
+ 
+  .card__imgExp {
+    width: 40%;
+    height: auto;
+  }
+ 
+  .card__Pregunta {
+    flex-wrap: wrap;
+  }
+ 
+  .card__contenidoPregunta {
+    width: 48%;
+    border-right: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+  }
+ 
+  .card__preguntaTitulo {
+    text-align: center;
+  }
+ 
+  .card__preguntaTitulo::after,
+  .card__preguntaTitulo::before {
+    width: 220px;
+  }
+ 
+  .cardInformacion {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+  }
+ 
+  .card__separacionInformacion {
+    flex-wrap: wrap;
+    gap: 2rem;
+    width: 100%;
+  }
+ 
+  .cardContacto {
+    padding-right: 1.5rem;
+  }
+}

@@ -1,0 +1,21 @@
+@mixin displayFlex(
+    $direction: row,
+    $justify: center,
+    $align: center
+    ){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+@mixin boton(
+  $bg,
+  $border,
+  $color
+) {
+  background-color: $bg;
+  border: 1px solid $border;
+  border-radius: 1rem;
+  padding: 1rem 3rem;
+  color: $color;
+}

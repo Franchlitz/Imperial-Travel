@@ -1,0 +1,54 @@
+@use "../utilidades/variables";
+@use "../utilidades/mixins";
+@use "../utilidades/extends";
+.card__contenedorExperiencias {
+  @extend %cardBorde;
+  width: 80%;
+  height: 100%;
+}
+
+.card__experiencias {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 50%;
+}
+
+.card__imgExp {
+    height: 300px;
+    width: 50%;
+}
+
+.cardPlanificacion {
+  @extend %cardBorde;
+  width: 50%;
+}
+
+.card__planificacionAbajo {
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    padding-top: 1rem;
+}
+
+.card__planificacionAbajo img {
+    height: 2vh;
+}
+
+.card__planificacionImg {
+    height: 235px;
+    width: 50%;
+}
+
+.cardExperiencias button {
+    border: 1px#8B0000;
+    background-color: #E10600;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: #ffffff;
+}
+
+.cardExperiencias p {
+    color: variables.$colorGris;
+}
+
+.cardExperiencias h3 {
+    color: variables.$colorRojo;
+}

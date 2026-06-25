@@ -1,0 +1,30 @@
+@use "../utilidades/variables";
+@use "../utilidades/mixins";
+.cardInformacion {
+    margin-left: 15%;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.cardInformacion img {
+    height: 10vh;
+}
+
+.cardContacto img {
+    height: 6vh;
+}
+
+.cardContacto {
+    padding-right: 5rem;
+}
+
+.cardInformacion a {
+    color: variables.$colorGris;
+}
+
+.cardInformacion p {
+    color: variables.$colorRojo;
+}
+
+.cardInformacion h5 {
+    color: variables.$colorRojo;
+}

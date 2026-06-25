@@ -1,0 +1,47 @@
+@use "../utilidades/variables";
+@use "../utilidades/mixins";
+.cardPregunta {
+    margin-left: 15%;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.cardPregunta p {
+    color: variables.$colorGris;
+}
+
+.cardPregunta h4 {
+    color: variables.$colorRojo;
+}
+
+.card__preguntaImg2 {
+    height: 10vh;
+}
+
+.card__preguntaImg {
+    height: 9vh;
+}
+
+.card__contenidoPregunta {
+    border-right: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.card__preguntaTitulo::after {
+    content: "";
+    width: 450px;
+    height: 2px;
+    background-color: variables.$colorRojo;
+    display: block;
+    clip-path: polygon(0 0, 100% 40%, 100% 60%, 0 100%);
+}
+
+.card__preguntaTitulo::before {
+    content: "";
+    width: 450px;
+    height: 2px;
+    background-color: variables.$colorRojo;
+    display: block;
+    clip-path: polygon(0 40%,
+            100% 0,
+            100% 100%,
+            0% 60%);
+}

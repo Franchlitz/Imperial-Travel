@@ -1,0 +1,26 @@
+@media (max-width: 1366px) {
+  .sidebar {
+    width: 18%;
+  }
+ 
+  main,
+  .cardHeader,
+  .cardPregunta,
+  .cardInformacion,
+  .footer {
+    margin-left: 18%;
+  }
+ 
+  .card__headerContenido {
+    padding: 4rem 3rem;
+  }
+ 
+  .card__mainDestinos {
+    width: 22%;
+  }
+ 
+  .card__preguntaTitulo::after,
+  .card__preguntaTitulo::before {
+    width: 320px;
+  }
+}
