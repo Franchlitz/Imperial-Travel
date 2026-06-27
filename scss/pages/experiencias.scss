@@ -3,7 +3,34 @@
 @use "../utilidades/extends";
 
 .pagina-experiencias{
-.card__mainContenido{
-        width: 75%;
-    }
+ .card__mainDestinos {
+    width: 100%;
+    height: 90vh;
+ }
+ .card__mainDestinos img {
+    height: 50vh;
+ }
+ .card__mainDestinos button{
+    padding: 1rem;
+ }
+ .card__destinosTitulo::before {
+    content: "";
+    width: 400px;
+    height: 2px;
+    background-color: variables.$colorRojo;
+    display: block;
+}
+.card__destinosTitulo::after {
+    content: "";
+    width: 400px;
+    
+}
+.card__mainDestinos h3::before,
+.card__mainDestinos h3::after {
+    content: "";
+    width: 30%;
+    height: 2px;
+    background-color: variables.$colorRojo;
+    display: block;
+}
 }
