@@ -1,0 +1,9 @@
+@use "../utilidades/mixins";
+@use "../utilidades/variables";
+@use "../utilidades/extends";
+
+.pagina-experiencias{
+.card__mainContenido{
+        width: 75%;
+    }
+}

@@ -518,6 +518,23 @@ main {
     font-size: 0.78rem;
   }
 }
-
+.pagina-destinos .card__destinosTitulo::before {
+  content: "";
+  width: 400px;
+  height: 2px;
+  background-color: #C1121F;
+  display: block;
+}
+.pagina-destinos .card__destinosTitulo::after {
+  content: "";
+  width: 400px;
+}
+.pagina-destinos .cardInformacion {
+  margin-left: 0%;
+}
+.pagina-destinos .footer {
+  margin-left: 0%;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
 
 /*# sourceMappingURL=styles.css.map */

@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="./css/styles.css">
 </head>
 
-<body>
+<body class="pagina-inicio">
 
   <header>
     <nav class="sidebar nav d-block flex-column position-fixed vh-100 p-3 gap-5">
@@ -31,8 +31,8 @@
 
         <div class="sidebarLinks d-flex flex-column gap-2">
           <a class="nav-link active fs-5 text-white" aria-current="page" href="#">Inicio</a>
-          <a class="nav-link fs-5 text-white" href="#">Destinos</a>
-          <a class="nav-link fs-5 text-white" href="#">Experiencias</a>
+          <a class="nav-link fs-5 text-white" href="./paginas/destinos.html">Destinos</a>
+          <a class="nav-link fs-5 text-white" href="./paginas/experiencias.html">Experiencias</a>
           <a class="nav-link fs-5 text-white" href="#">Planifica tu viaje</a>
           <a class="nav-link fs-5 text-white" href="#">Servicios</a>
           <a class="nav-link fs-5 text-white" href="#">Sobre IMPERIAL TRAVEL</a>
@@ -68,8 +68,10 @@
           <p class="fs-5 text-white">Todo bajo control del Imperio.</p>
 
           <div class="card__headerBotones d-flex flex-wrap gap-4">
-            <button class="card__botonDestinos">EXPLORA DESTINOS →</button>
-            <button class="card__botonServicios">NUESTROS SERVICIOS</button>
+            <nav>
+            <a href="#destinos"> <button class="card__botonDestinos">EXPLORA DESTINOS →</button> </a>
+            <a href=""> <button class="card__botonServicios">NUESTROS SERVICIOS</button> </a>
+            </nav>
           </div>
 
         </div>
@@ -78,11 +80,11 @@
   </header>
 
   <main>
-    <section class="cardDestinos d-flex flex-column p-5">
-      <div class="d-flex justify-content-between ">
+    <section class="cardDestinos d-flex flex-column p-5" id="destinos">
+      <div class="d-flex justify-content-between gap-4">
       <h2 class="card__destinosTitulo d-flex align-items-center gap-5 fs-4 text-white">DESTINOS</h2>
       <nav>
-        <a href="#">VER TODOS LOS DESTINOS</a>
+        <a href="./paginas/destinos.html">VER TODOS LOS DESTINOS</a>
       </nav>
       </div>
       <div class="card__mainContenido d-flex justify-content-start align-items-start flex-wrap gap-4">

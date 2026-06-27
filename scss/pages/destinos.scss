@@ -1,0 +1,24 @@
+@use "../utilidades/mixins";
+@use "../utilidades/variables";
+@use "../utilidades/extends";
+
+.pagina-destinos{
+.card__destinosTitulo::before {
+    content: "";
+    width: 400px;
+    height: 2px;
+    background-color: variables.$colorRojo;
+    display: block;
+}
+.card__destinosTitulo::after {
+    content: "";
+    width: 400px;
+}
+.cardInformacion{
+    margin-left: 0%;
+}
+.footer{
+    margin-left: 0%;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+}
