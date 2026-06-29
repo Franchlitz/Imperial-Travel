@@ -572,6 +572,38 @@ main {
   display: block;
 }
 
+.pagina-servicios .card__mainDestinos {
+  width: 17rem;
+}
+.pagina-servicios .card__headerContenido {
+  margin-right: 50%;
+}
+.pagina-servicios .card__destinosTitulo::before {
+  content: "";
+  width: 400px;
+  height: 2px;
+  background-color: #C1121F;
+  display: block;
+}
+.pagina-servicios .card__destinosTitulo::after {
+  content: "";
+  width: 400px;
+}
+.pagina-servicios .cardInformacion {
+  margin-left: 0%;
+}
+.pagina-servicios .footer {
+  margin-left: 0%;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.pagina-informacion .cardPregunta {
+  margin-left: 0;
+}
+.pagina-informacion .card__headerContenido {
+  margin-right: 50%;
+}
+
 
 
 /*# sourceMappingURL=styles.css.map */

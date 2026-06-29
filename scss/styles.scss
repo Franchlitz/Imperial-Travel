@@ -9,7 +9,7 @@
 @use "./layout/mainDestinos";
 @use "./layout/mainExperiencias";
 @use "./layout/pregunta";
-@use "./layout/informacion";
+@use "./layout/mainInformacion";
 @use "./layout/footer";
 
 @use "./responsive/desktop";
@@ -18,6 +18,8 @@
 
 @use "./pages/destinos.scss";
 @use "./pages/experiencias.scss";
+@use "./pages/servicios.scss";
+@use "./pages/informacion.scss";
 
 
 /*# sourceMappingURL=styles.css.map */
