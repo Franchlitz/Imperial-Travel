@@ -544,7 +544,7 @@ main {
 
 .pagina-experiencias .card__mainDestinos {
   width: 100%;
-  height: 90vh;
+  height: auto;
 }
 .pagina-experiencias .card__mainDestinos img {
   height: 50vh;
@@ -574,9 +574,10 @@ main {
 
 .pagina-servicios .card__mainDestinos {
   width: 17rem;
+  height: 40vh;
 }
 .pagina-servicios .card__headerContenido {
-  margin-right: 50%;
+  margin-right: 25%;
 }
 .pagina-servicios .card__destinosTitulo::before {
   content: "";
